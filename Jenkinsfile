@@ -2,7 +2,7 @@ pipeline {
     agent none 
     stages {
         stage ('checkout') {
-agent { label 'java' } |
+agent { label 'java' }
             steps {
                 sh 'git clone https://github.com/Maheshpuravara/hello-world-war.git'
             }
